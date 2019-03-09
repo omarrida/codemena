@@ -1,0 +1,43 @@
+.button-primary {
+	color: $primary-color;
+	background-color: $secondary-color;
+	border: 0;
+	font-size: 1em;
+	font-weight: 500;
+	line-height: 1.9;
+	min-height: 1.5rem;
+	padding: 0.75rem 1.5rem;
+	text-decoration: none;
+	border-radius: 1px;
+}
+
+.nav-item .button-primary {
+	color: $primary-color;
+	background-color: $secondary-color;
+	border: 0;
+	font-size: 1em;
+	font-weight: 500;
+	line-height: normal;
+	min-height: inherit;
+	padding: 0.75rem 1.5rem;
+	border-radius: 1px;
+}
+
+.button-secondary {
+	color: $secondary-color;
+	background-color: $primary-color;
+	border: 0;
+	font-size: 1em;
+	font-weight: 500;
+	line-height: 1.9;
+	min-height: 1.5rem;
+	padding: 0.75rem 1.5rem;
+	text-decoration: none;
+	border-radius: 1px;
+}
+
+.button-secondary:hover {
+	color: $secondary-color !important;
+	border-bottom-style: none;
+	text-decoration: none;
+}

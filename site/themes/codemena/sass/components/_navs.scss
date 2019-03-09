@@ -1,0 +1,16 @@
+.nav-link {
+    color: $secondary-color !important;
+}
+
+.navbar-brand {
+    font-weight: 600 !important;
+    color: $secondary-color !important;
+}
+
+.navbar-toggler-icon {
+    color: $secondary-color !important;
+}
+
+.button-primary .nav-link {
+    color: $primary-color;
+}

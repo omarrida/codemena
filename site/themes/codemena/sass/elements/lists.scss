@@ -1,0 +1,71 @@
+.icon-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  margin-top: 3rem;
+  box-sizing: border-box;
+}
+
+.icon-list::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.icon-item {
+	float: left;
+	display: list-item;
+	position: relative;
+  padding-bottom: 1.5rem;
+  padding-right: 3rem;
+}
+
+.icon-item h2 {
+  display: block;
+  margin: 0 0 0.75rem;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+.icon-item ul {
+  margin-bottom: 0.75rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.icon-item ul a {
+  border-color: rgba(181,181,192,0.5);
+  color: $grey-color;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.icon-item ul li {
+  line-height: 1.9;
+}
+
+@media screen and (min-width: 580px) {
+  .icon-item:nth-child(2n+1) {
+      clear: left;
+  }
+}
+
+.bulleted-list-primary {
+	list-style: circle;
+	padding: 1.125rem;
+	list-style-type: circle;
+}
+
+.bulleted-list-primary li {
+	font-size: .9em;
+	color: $grey-color;
+}

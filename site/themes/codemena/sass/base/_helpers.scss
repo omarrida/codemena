@@ -1,0 +1,89 @@
+body {
+	background-image: linear-gradient(#d2383f, #e85448);
+}
+
+.transparent {
+	background: none;
+}
+
+.wrapper {
+	padding: 2rem;
+}
+
+.section-wrapper {
+	padding: 2rem;
+	min-height: 100vh;
+}
+
+.section-wrapper-sm {
+	padding: 2rem;
+	min-height: 50vh;
+}
+
+.padding-top-md {
+	padding-top: 3rem;
+}
+
+.padding-md {
+	padding: 3rem;
+}
+
+.padding-horizontal-md {
+	padding-right: 3rem;
+	padding-left: 3rem;
+}
+
+.padding-vertical-md {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.full-screen-image {
+	max-width: 100%;
+}
+
+.secondary-background {
+	background-color: $secondary-color;
+}
+
+.dark-background {
+	background-color: $darker-color;
+}
+
+.v-align {
+	vertical-align: middle;
+	position: absolute;
+	display: block;
+	top: 50%;
+	width: inherit;
+}
+
+.top-diff {
+	border-top: 1px;
+	border-bottom: 0;
+	border-right: 0;
+	border-left: 0;
+	border-style: solid;
+	border-color: $darker-grey-color;
+}
+
+.navigation-groups {
+	flex-direction: column;
+	text-align: center;
+	width: 100%;
+}
+
+.navigation-group {
+	margin-bottom: 3rem;
+	display: list-item;
+	list-style-type: none;
+}
+
+.green-background {
+	background-color: $green-color !important;
+}
+
+.padded-list li {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
